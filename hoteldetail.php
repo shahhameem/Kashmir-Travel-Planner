@@ -36,7 +36,7 @@
       <div class="container">
         <?php  
         $eid=($_GET['id']);
-$query=mysqli_query($conn,"SELECT * FROM hotel WHERE Email='$eid'");
+$query=mysqli_query($dbc,"SELECT * FROM hotel WHERE Email='$eid'");
 $count=1;
  while($r=mysqli_fetch_array($query))
  {

@@ -28,7 +28,7 @@
           <th>Operations</th>
         </tr>
         <?php  
-              $query=mysqli_query($conn,"SELECT * FROM shik");
+              $query=mysqli_query($dbc,"SELECT * FROM shik");
               $count=1;
               while($r=mysqli_fetch_array($query))
                 {

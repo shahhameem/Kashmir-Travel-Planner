@@ -4,6 +4,7 @@
 $upload_dir = "../assets/img/foods/";
 
 if (isset($_POST['save'])) {
+    
     // Sanitize user input
     $name = mysqli_real_escape_string($dbc, $_POST['name']);
     $prop = mysqli_real_escape_string($dbc, $_POST['prop']);
@@ -29,6 +30,7 @@ if (isset($_POST['save'])) {
         echo "Error: " . mysqli_error($dbc);
     }
 }
+
 
 /**
  * Function to handle file uploads

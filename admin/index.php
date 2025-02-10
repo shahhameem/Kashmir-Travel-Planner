@@ -24,7 +24,7 @@ include 'config/loggedin.php';
                         <div class="card-body">
                             <h5 class="card-title">Hotels</h5>
                             <p class="card-text">Manage hotel listings</p>
-                            <a href="manage_hotels.php" class="btn btn-light btn-sm">Go</a>
+                            <a href="manage_hotel.php" class="btn btn-light btn-sm">Go</a>
                         </div>
                     </div>
                 </div>

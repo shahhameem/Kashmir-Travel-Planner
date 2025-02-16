@@ -2,7 +2,6 @@
 $page_title = "Food";
 include 'partials/header.php';
 include 'config/loggedin.php';
-include 'controllers/food.php';
 
 // Fetch all food records
 $query = "SELECT * FROM foods";

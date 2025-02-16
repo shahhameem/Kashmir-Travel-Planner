@@ -42,7 +42,7 @@ include 'config/loggedin.php';
                         <div class="card-body">
                             <h5 class="card-title">Tourist Places</h5>
                             <p class="card-text">Manage destinations</p>
-                            <a href="manage_places.php" class="btn btn-light btn-sm">Go</a>
+                            <a href="manage_place.php" class="btn btn-light btn-sm">Go</a>
                         </div>
                     </div>
                 </div>
@@ -51,7 +51,7 @@ include 'config/loggedin.php';
                         <div class="card-body">
                             <h5 class="card-title">Shikaras</h5>
                             <p class="card-text">Manage boat rentals</p>
-                            <a href="manage_shikaras.php" class="btn btn-light btn-sm">Go</a>
+                            <a href="manage_shikara.php" class="btn btn-light btn-sm">Go</a>
                         </div>
                     </div>
                 </div>
